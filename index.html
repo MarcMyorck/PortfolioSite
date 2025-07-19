@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Marc Riewe – Game Dev Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Marc Riewe - Game Programmer</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+
+        <li class="dropdown">
+          <button type="button" class="dropbtn" aria-haspopup="true" aria-expanded="false">Projects</button>
+          <ul class="dropdown-menu">
+            <li><a href="projects/project-1.html">Project 1</a></li>
+            <li><a href="projects/project-2.html">Project 2</a></li>
+            <li><a href="projects/project-3.html">Project 3</a></li>
+            <!-- add more as needed -->
+          </ul>
+        </li>
+
+        <li><a href="about.html">About</a></li>
+
+	<li><a href="https://www.linkedin.com/in/marc-riewe/">LinkedIn</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero section (Name, Title, Intro Text) -->
+      <!-- About Box -->
+      <section class="profile-box container">
+        <img
+          src="assets/images/Profilephoto.png"
+          alt="Photo of Your Name"
+          class="profile-photo"
+        />
+
+        <div class="profile-text">
+          <h2>About Me</h2>
+          <!-- More about my way towards game dev? -->
+          <p>
+            I’m a game developer specializing in Programming, Game Design and Testing. 
+            I love creating complex gameplay systems, crafting fun mechanics, and learning new things. 
+            In my free time you often find me gaming ... I mean researching game mechanics :)
+          </p>
+          <p>
+          I would love to connect, just send me a LinkedIn message or Mail
+          </p>
+          <a href="about.html">More about me</a>
+        </div>
+      </section>
+
+    <!-- Project showcase grid (Name, Role, Picture) -->
+      <!-- Game Jams (FARBEN FÜR JEDES ANDERS) -->
+      <!-- Uni Projects -->
+      <!-- Work Projects -->
+      <!-- Personal Projects -->
+<section class="projects-section container">
+  <h2>Projects</h2>
+
+  <div class="project-filters">
+    <button data-filter="all" class="active">All</button>
+    <button data-filter="game-jams">Game Jams</button>
+    <button data-filter="uni">University</button>
+    <button data-filter="work">Work</button>
+    <button data-filter="personal">Personal</button>
+    <button data-filter="programming">Programming</button>
+    <button data-filter="game-design">Game Design</button>
+    <button data-filter="testing">Testing</button>
+    <button data-filter="art">Art</button>
+  </div>
+
+<!-- About Box (When, Link, what used, what learned in full details) -->
+  <div class="projects-grid">
+
+    <article class="project-card" data-type="uni">
+      <img src="assets/images/MinenDesAmbossbergs.png" alt="DieMinenDesAmbossbergs Logo">
+      <div class="project-info">
+        <h3>Unnamed Game Art Project</h3>
+        <p>Currently developing Game Art for running university module "Project: Game Art"</p>
+        <p>Role: Game Design, Art</p>
+        <a href="projects/project-1.html" class="btn-link">View Details →</a>
+      </div>
+    </article>
+
+    <article class="project-card" data-type="personal">
+      <img src="assets/images/MinenDesAmbossbergs.png" alt="DieMinenDesAmbossbergs Logo">
+      <div class="project-info">
+        <h3>Inventory System</h3>
+        <p>Standalone inventory system with picking up and dropping items made for learning</p>
+        <p>Role: Programming, Game Design</p>
+        <a href="projects/project-1.html" class="btn-link">View Details →</a>
+      </div>
+    </article>
+
+    <article class="project-card" data-type="personal">
+      <img src="assets/images/MinenDesAmbossbergs.png" alt="DieMinenDesAmbossbergs Logo">
+      <div class="project-info">
+        <h3>Grab System</h3>
+        <p>Standalone physics-based grab system made for learning</p>
+        <p>Role: Programming, Game Design</p>
+        <a href="projects/project-1.html" class="btn-link">View Details →</a>
+      </div>
+    </article>
+
+    <article class="project-card" data-type="game-jams">
+      <img src="assets/images/SaveTheLab.jpeg" alt="SaveTheLab Logo">
+      <div class="project-info">
+        <h3>Save the Lab</h3>
+        <p>Local 2 Player PVP Action Puzzler made during Global Game Jam 2025 in Karlsruhe</p>
+        <p>Role: Programming, Game Design</p>
+        <a href="projects/project-1.html" class="btn-link">View Details →</a>
+      </div>
+    </article>
+
+    <article class="project-card" data-type="personal">
+      <img src="assets/images/MinenDesAmbossbergs.png" alt="DieMinenDesAmbossbergs Logo">
+      <div class="project-info">
+        <h3>Cinema Simulator</h3>
+        <p>VR Game in which you server customers their food and drinks made for learning about VR development</p>
+        <p>Role: Programming, Game Design</p>
+        <a href="projects/project-1.html" class="btn-link">View Details →</a>
+      </div>
+    </article>
+
+    <article class="project-card" data-type="personal">
+      <img src="assets/images/HighJump.png" alt="HighJump Logo">
+      <div class="project-info">
+        <h3>High Jump</h3>
+        <p>Casual Autoscrolling Platformer made as final project for a Harvard certificate</p>
+        <p>Role: Programming, Game Design, Art</p>
+        <a href="projects/project-1.html" class="btn-link">View Details →</a>
+      </div>
+    </article>
+
+    <article class="project-card" data-type="uni">
+      <img src="assets/images/MinenDesAmbossbergs.png" alt="DieMinenDesAmbossbergs Logo">
+      <div class="project-info">
+        <h3>Die Minen des Ambossbergs</h3>
+        <p>4 Player Cooperative Cardgame made for my university module "Project: Analogue Game"</p>
+        <p>Role: Game Design, Art</p>
+        <a href="projects/project-1.html" class="btn-link">View Details →</a>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<section class="projects-section container">
+  <h2>Projects</h2>
+
+  <!-- Game Jams -->
+  <div class="projects-category">
+    <h3>Game Jams</h3>
+    <div class="projects-grid">
+      <!-- project-card… -->
+<article class="project-card" data-type="game-jams">
+      <img src="assets/images/project1-thumb.jpg" alt="Project 1 screenshot">
+      <div class="project-info">
+        <h3>Project Title 1</h3>
+        <p>Short description of what this project does and your role.</p>
+        <a href="projects/project-1.html" class="btn-link">View Details →</a>
+      </div>
+    </article>
+
+    <article class="project-card" data-type="game-jams">
+      <img src="assets/images/project2-thumb.jpg" alt="Project 2 screenshot">
+      <div class="project-info">
+        <h3>Project Title 2</h3>
+        <p>Short description of what this project does and your role.</p>
+        <a href="projects/project-2.html" class="btn-link">View Details →</a>
+      </div>
+    </article>
+    </div>
+  </div>
+
+  <!-- University Projects -->
+  <div class="projects-category">
+    <h3>University Projects</h3>
+    <div class="projects-grid">
+      <!-- project-card… -->
+<article class="project-card" data-type="uni">
+      <img src="assets/images/project1-thumb.jpg" alt="Project 1 screenshot">
+      <div class="project-info">
+        <h3>Project Title 1</h3>
+        <p>Short description of what this project does and your role.</p>
+        <a href="projects/project-1.html" class="btn-link">View Details →</a>
+      </div>
+    </article>
+
+    <article class="project-card" data-type="uni">
+      <img src="assets/images/project2-thumb.jpg" alt="Project 2 screenshot">
+      <div class="project-info">
+        <h3>Project Title 2</h3>
+        <p>Short description of what this project does and your role.</p>
+        <a href="projects/project-2.html" class="btn-link">View Details →</a>
+      </div>
+    </article>
+    </div>
+  </div>
+
+  <!-- Work Projects -->
+  <div class="projects-category">
+    <h3>Work Projects</h3>
+    <div class="projects-grid">
+      <!-- project-card… -->
+<article class="project-card" data-type="work">
+      <img src="assets/images/project1-thumb.jpg" alt="Project 1 screenshot">
+      <div class="project-info">
+        <h3>Project Title 1</h3>
+        <p>Short description of what this project does and your role.</p>
+        <a href="projects/project-1.html" class="btn-link">View Details →</a>
+      </div>
+    </article>
+
+    <article class="project-card" data-type="work">
+      <img src="assets/images/project2-thumb.jpg" alt="Project 2 screenshot">
+      <div class="project-info">
+        <h3>Project Title 2</h3>
+        <p>Short description of what this project does and your role.</p>
+        <a href="projects/project-2.html" class="btn-link">View Details →</a>
+      </div>
+    </article>
+    </div>
+  </div>
+
+  <!-- Personal Projects -->
+  <div class="projects-category">
+    <h3>Personal Projects</h3>
+    <div class="projects-grid">
+      <!-- project-card… -->
+<article class="project-card" data-type="personal">
+      <img src="assets/images/project1-thumb.jpg" alt="Project 1 screenshot">
+      <div class="project-info">
+        <h3>Project Title 1</h3>
+        <p>Short description of what this project does and your role.</p>
+        <a href="projects/project-1.html" class="btn-link">View Details →</a>
+      </div>
+    </article>
+
+    <article class="project-card" data-type="personal">
+      <img src="assets/images/project2-thumb.jpg" alt="Project 2 screenshot">
+      <div class="project-info">
+        <h3>Project Title 2</h3>
+        <p>Short description of what this project does and your role.</p>
+        <a href="projects/project-2.html" class="btn-link">View Details →</a>
+      </div>
+    </article>
+    </div>
+  </div>
+</section>
+  </main>
+
+  <footer>
+    <p>© 2025 Marc Riewe</p>
+    <p>E-Mail: </p>
+  </footer>
+</body>
+</html>
