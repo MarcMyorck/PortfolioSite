@@ -204,6 +204,7 @@ header nav ul li {
 }
 
 .profile-text h2 {
+  margin-top: 0;
   margin-bottom: 0.5rem;
   font-size: 1.5rem;
 }
@@ -385,24 +386,36 @@ h1, h2, h3, h4 {
 /* About page */
 
 .about-section {
-  padding: 3rem 1rem;
-  margin-top: 3rem;
+  padding: 1rem;
+  margin-top: 0;
   background: var(--color-bg-light);
   border-radius: 8px;       /* rounded corners */
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);  /* subtle shadow */
   h1 {
     margin-top: 0;
   }
-  .skill {
-    text-align: center;
-    white-space: nowrap;
-  }
-  p {
-    margin-bottom: 0;
+  .skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    .skill {
+      text-align: center;
+      white-space: nowrap;
+    }
   }
 }
 
 .skill-image {
   width: 32px;
   height: 32px;
+}
+
+.certificates-container {
+  .certificate {
+    margin: 0 0 1.25rem;
+    p {
+      margin-bottom: 0;
+    }
+  }
 }
