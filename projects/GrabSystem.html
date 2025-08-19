@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Marc Riewe – Game Dev Portfolio</title>
+  <link rel="icon" href="/assets/images/TabIcon.png" type="image/png">
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="/js/main.js" defer></script>
+</head>
+<body>
+  <header>
+    <site-header></site-header>
+  </header>
+
+  <main>
+    <section class="project-box container">
+      <div class="project-text">
+        <h1>Title</h1>
+        <h3>Summary</h3>
+
+        <!-- Timeframe -->
+        <p>
+          Timeframe: ~15 hours (08.04.25 - 05.05.25)
+        </p>
+
+        <!-- My role -->
+        <p>
+          Role: Developer
+        </p>
+
+        <!-- Learned/Used skills -->
+        <p>
+          Skills: Programming, Game Design
+        </p>
+
+        <!-- Engine -->
+        <p>
+          Engine: Unreal Engine
+        </p>
+
+        <!-- Language -->
+        <p>
+          Language: Blueprints
+        </p>
+
+        <!-- Teamsize -->
+        <p>
+          Teamsize: 1
+        </p>
+
+        <!-- Website/Download -->
+        <p>
+          Website/Download: <a href="https://youtu.be/m9tO-WvJclo">Showcase video</a>. Repository is coming soon.
+        </p>
+
+        <!-- Description (General about project) -->
+        <p>
+          Description: My goal was to create a physics based grabbing system, similar to the one from the game R.E.P.O..
+        </p>
+
+        <!-- Story -->
+        <p>
+          Story: -
+        </p>
+
+        <!-- Gameplay/Features -->
+        <p>
+          Gameplay/Features: There are multiple objects the player can interact with. There is a small cube that the player can pick up and freely move around in the air. There is a door that swings on a hinge and that the player can also grab and open or close that way. There is a lever where the lever hinges on the bottom part and can be move left or right to activate or deactivate it. Lastly there is a chest where the player can grab the top part to open or close it. The player can also scroll the mouse wheel to pull a grabbed object towards or away from them. Lastly if the player moves to far away from the element for example on the door that is restricted by its hinges the connection breaks.
+        </p>
+
+        <!-- Workflow -->
+        <p>
+          Workflow: The door, lever and chest use physics constraints to restrict their movement along a hinge. The grab system is made via a physics handle that grabs the specified object and tries to move it towards a certain grab point. The grab point is where the player is looking and has a certain distance from the player that can be controlled via the mouse wheel up to a certain maximum. Additionally I added a orange laser ray that moves from the player through the grab point and then ends in the grabbed object.
+        </p>
+
+        <!-- Key takeaways -->
+        <p>
+          Key takeaways: physics constraints are great at creating objects with restricted movement while physics handles are great if you want to grab and move objects physically accurate. Both make for good physics based grab systems without needing to deal to much with complex calculations.
+        </p>
+
+        <!-- What I would do better next time -->
+        <p>
+          What I would do better next time: I may work more on this project in the future. Some things I would consider adding are grabbable objects with different masses, being able to rotate grabbed objects or being able to grab an object not just in the center but also at its edges or corners.
+        </p>
+
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <site-footer></site-footer>
+  </footer>
+</body>
+</html>

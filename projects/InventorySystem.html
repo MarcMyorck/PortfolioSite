@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Marc Riewe – Game Dev Portfolio</title>
+  <link rel="icon" href="/assets/images/TabIcon.png" type="image/png">
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="/js/main.js" defer></script>
+</head>
+<body>
+  <header>
+    <site-header></site-header>
+  </header>
+
+  <main>
+    <section class="project-box container">
+      <div class="project-text">
+        <h1>Title</h1>
+        <h3>Summary</h3>
+
+        <!-- Timeframe -->
+        <p>
+          Timeframe: ~20 hours (02.04.25 - 15.06.25)
+        </p>
+
+        <!-- My role -->
+        <p>
+          Role: Developer
+        </p>
+
+        <!-- Learned/Used skills -->
+        <p>
+          Skills: Programming, Game Design
+        </p>
+
+        <!-- Engine -->
+        <p>
+          Engine: Unreal Engine
+        </p>
+
+        <!-- Language -->
+        <p>
+          Language: Blueprints
+        </p>
+
+        <!-- Teamsize -->
+        <p>
+          Teamsize: 1
+        </p>
+
+        <!-- Website/Download -->
+        <p>
+          Website/Download: <a href="https://youtu.be/QkhBU68mLAo">Showcase video</a>. Repository is coming soon.
+        </p>
+
+        <!-- Description (General about project) -->
+        <p>
+          Description: My goal was to create a simple inventory system.
+        </p>
+
+        <!-- Story -->
+        <p>
+          Story: -
+        </p>
+
+        <!-- Gameplay/Features -->
+        <p>
+          Gameplay/Features: The player has an inventory with 10 free spaces for items. In this demo there are three different items: bread with a stack size of 2, cans with a stack size of 4 and apples with a stack size of 8. If the player is in pickup range of an object it shows a prompt that says what button to press to pick it up, what item it is and how many there are. The player will always just pick up the nearest stack of items. The stack of items will then be picked up, if there is still space in the inventory and split across slots if needed, or just part of the stack will be picked up, if there is not enough space for everything. The player can also press two numbers on his keyboard to switch the items in both slots or just press one number and Q to drop it on the ground. If there is more than one item in the dropped stack it will be visually shown.
+        </p>
+
+        <!-- Workflow -->
+        <p>
+          Workflow: Every dropped item is a data structure consisting of the item name, the item amount and the item max stack size. The inventory is then just an array of those data structures that can be filled with the items that the player picks up. The pickup range of the player is a sphere collision that regularly checks the surrounding items and just interacts with the nearest one. The pickup prompt and inventory screen are just UI widgets that use info from the items and inventory.
+        </p>
+
+        <!-- Key takeaways -->
+        <p>
+          Key takeaways: I found it very interesting to figure out how to create the data structures for the items, make sure the visuals are fitting, store them in the inventory arrays and then spawning them correctly again when they are dropped. It was very fun to create the function that checks how the items that the player wants to pickup should be placed in the inventory. It was also hard to choose a direction of how all the different systems should work as I did not have a game to base it on. In the end I just made it a mix between Minecraft and The Legend of Zelda: Breath of the Wild. I also learned a bit more about how to create UI.
+        </p>
+
+        <!-- What I would do better next time -->
+        <p>
+          What I would do better next time: I may work more on this project in the future. Some things I would consider adding are crafting, a taskbar and equippable and usable items.
+        </p>
+
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <site-footer></site-footer>
+  </footer>
+</body>
+</html>
