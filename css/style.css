@@ -422,18 +422,28 @@ h1, h2, h3, h4 {
   color: var(--color-text);
 }
 
-.project-info-container {
+.project-text .project-info p {
+  line-height: 1.;
+  color: var(--color-text);
+}
+
+.project-text .project-info-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 16px;
   .project-info {
+    display: inline;
     text-align: center;
     white-space: nowrap;
+    p {
+      margin: 0 0 0 0;
+      white-space: normal;
+    }
   }
 }
 
-.project-info-image {
+.project-text .project-info-image {
   width: 32px;
   height: 32px;
 }
