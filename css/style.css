@@ -17,8 +17,10 @@ https://muffingroup.com/blog/green-color-palette/ (Flamingo Estate)
 
 https://worldvectorlogo.com/ für Skill Logos
 
-TODO: Search Font
+Font: Satoshi
 */
+
+@import url('/assets/fonts/satoshi/css/satoshi.css');
 
 :root {
   --color-primary:   #0F3D2E;
