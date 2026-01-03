@@ -247,8 +247,8 @@ h1, h2, h3, h4 {
 
 /* Projects Section */
 .projects-section {
-  padding: 3rem 1rem;
-  margin-top: 3rem;
+  padding: 1rem 1rem;
+  margin-top: 2rem;
   background: var(--color-bg-light);
   border-radius: 8px;       /* rounded corners */
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);  /* subtle shadow */
@@ -490,6 +490,12 @@ h1, h2, h3, h4 {
 
 .skills-part, .certificates-part, .additional-part {
   margin-top: 2rem;
+}
+
+.project-text, .additional-part {
+    p:last-child {
+        margin: 0;
+    }
 }
 
 .video-container {
