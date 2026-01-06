@@ -292,9 +292,6 @@ h1, h2, h3, h4 {
 
 .project-card-info {
   padding: 2rem;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
 }
 
 .project-card-info h3 {
