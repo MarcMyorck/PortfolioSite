@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const filter = btn.dataset.filter; // e.g. "game-jams"
       cards.forEach(card => {
         const type = card.dataset.type;
-        const show = filter === 'all' || type === filter;
+        const show = filter === 'all' || type.includes(filter); // type === filter OR type.includes(filter)
         card.style.display = show ? 'block' : 'none';
       });
     });
