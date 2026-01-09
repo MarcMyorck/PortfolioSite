@@ -20,7 +20,7 @@
 });
 
 document.addEventListener('DOMContentLoaded', () => { 
-  const container = document.getElementById('projects-grid'); 
+  const container = document.getElementById('projects'); 
   if (!container) return; 
     
   // get children as array 
