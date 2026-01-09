@@ -28,8 +28,8 @@ document.addEventListener('DOMContentLoaded', () => {
     
   // sort: featured first (data-featured="true") 
   cards.sort((a, b) => {
-    const fa = a.dataset.type.includes("featured") === 'true' ? 1 : 0; 
-    const fb = b.dataset.type.includes("featured") === 'true' ? 1 : 0; 
+    const fa = a.dataset.type.includes("featured") ? 1 : 0; 
+    const fb = b.dataset.type.includes("featured") ? 1 : 0; 
     return fb - fa; // featured (1) before non-featured (0) 
   }); 
     
