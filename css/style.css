@@ -538,3 +538,7 @@ h1, h2, h3, h4 {
   font-weight:700; 
   z-index: 5; 
 }
+
+.card-image {
+  position: relative;
+}
