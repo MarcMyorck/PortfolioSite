@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
       if (imgWrap && !imgWrap.querySelector('.featured-star')) { 
         const star = document.createElement('div'); 
         star.className = 'featured-star'; 
-        star.textContent = '★'; // or use an inline SVG for better control 
+        star.textContent = '★'; // Maybe replace with SVG? 
         imgWrap.appendChild(star); 
       } 
     } 
