@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
   // add star overlay to featured cards 
   cards.forEach(card => { 
-    if (card.dataset.type.includes("featured") === 'true') { 
+    if (card.dataset.type.includes("featured")) { 
       const imgWrap = card.querySelector('.card-image'); 
       if (imgWrap && !imgWrap.querySelector('.featured-star')) { 
         const star = document.createElement('div'); 
