@@ -512,7 +512,7 @@ h1, h2, h3, h4 {
   margin-bottom: 2rem;
 }
 
-.video-container iframe, .image-container img {
+.video-container iframe, .image-container img, .linkedin-container iframe {
   position: absolute; 
   top: 0; 
   left: 0; 
