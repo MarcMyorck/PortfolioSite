@@ -14,10 +14,12 @@ Neutral Dark		#1F2937	Body text, subheadings, borders
 
 https://de.pinterest.com/pin/duplex-decor--2251868557883300/
 https://muffingroup.com/blog/green-color-palette/ (Flamingo Estate)
+https://www.behance.net/gallery/240200555/Glyphic-Biotechnologies?tracking_source=curated_galleries_list#
+https://www.behance.net/gallery/226548265/The-History-of-Jailhouse-Lawyers-Website?tracking_source=curated_galleries_list#
 
 https://worldvectorlogo.com/ für Skill Logos
 
-Font: Satoshi
+Font: Satoshi von FontShare
 */
 
 @import url('/assets/fonts/satoshi/css/satoshi.css');
@@ -298,7 +300,6 @@ h1, h2, h3, h4 {
 .project-card-info h3 {
   margin: 0 0 0.75rem;
   font-size: 1.25rem;
-  color: var(--color-primary);
 }
 
 .project-card-info p {
@@ -381,7 +382,11 @@ h1, h2, h3, h4 {
 
 .project-filters button.active {
   background: var(--color-secondary);
-  color: #fff;
+  color: var(--color-bg-light);
+}
+
+.project-filters button.hover {
+  background: var(--color-accent);
 }
 
 /* Project Documentation page */
