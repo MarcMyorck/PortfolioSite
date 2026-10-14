@@ -182,7 +182,11 @@ nav a {
 }
 
 header nav ul li {
-  padding: 0.5rem 0.75rem;
+  padding: 0.5rem 0.5rem 0rem 0.5rem;
+}
+
+footer site-footer p {
+  margin: 0;
 }
 
 .profile-box {
